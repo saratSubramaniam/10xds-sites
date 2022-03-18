@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        10xDS Subsites
+    </title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+        * {
+            font-family: 'Montserrat';
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            height: 60px;
+            text-align: center;
+        }
+
+        header img {
+            height: 60px;
+        }
+
+        .content {
+            background-color: #7b45b7;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: calc(100vh - 60px);
+            align-items: center;
+            overflow: auto;
+        }
+
+        a.subsite-old-button {
+            color: white;
+            text-decoration: none;
+        }
+
+        a.subsite-button {
+            width: 300px;
+            border: 1px solid white;
+            text-align: center;
+            padding: 10px 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        a.subsite-button:hover {
+            background-color: #542787;
+            border: 1px solid #291144;
+        }
+
+        a.subsite-old-button:hover {
+            text-decoration: underline;
+        }
+
+        a.subsite-button:not(:last-child),
+        a.subsite-old-button:not(:last-child) {
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./10xds-tm-small2d.svg">
+    </header>
+
+    <div class="content">
+        <a class="subsite-button" title="Visit 10xDS Abu Dhabi website" href="./10xds-abu-dhabi/index.html"
+            target="_blank">
+            10xDS ABU DHABI
+        </a>
+
+        <a class="subsite-button" title="Visit 10xDS Kuwait website" href="./10xds-kuwait/index.html" target="_blank">
+            10xDS KUWAIT
+        </a>
+
+        <a class="subsite-old-button" title="Visit the old 10xDS Kuwait website" href="https://dt-kuwait.10xds.com/"
+            target="_blank">
+            10xDS KUWAIT - Old
+        </a>
+
+        <a class="subsite-button" title="Visit 10xDS Oman website" href="">
+            10xDS OMAN
+        </a>
+
+        <a class="subsite-button" title="Visit 10xDS USA website" href="">
+            10xDS USA
+        </a>
+
+        <a class="subsite-button" title="Visit 10xDS OPES 2022 website" href="./opes-2022/index.html" target="_blank">
+            10xDS OPES 2022
+        </a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        OPES 2022
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="contact-us">
+        <div class="title">
+            Talk to our experts
+        </div>
+        <form>
+            <div class="form-control">
+                <input id="name" placeholder="Name" type="text" required name="name" onblur="nameEntered()"
+                    onkeypress="checkSubmitForm(event)" />
+                <small id="name-error">
+                    Please enter your name
+                </small>
+            </div>
+            <div class="form-control">
+                <input id="emailID" placeholder="Email ID" type="email" name="emailID" required
+                    onkeypress="checkSubmitForm(event)" onblur="emailIDEntered()" />
+                <small id="emailID-error">
+                    Please enter your email ID
+                </small>
+                <small id="emailID-valid-error">
+                    Please enter a valid email ID
+                </small>
+            </div>
+            <div class="form-control">
+                <input id="organization" placeholder="Organization" type="text" name="organization" required
+                    onkeypress="checkSubmitForm(event)" onblur="organizationEntered()" />
+                <small id="organization-error">
+                    Please enter your organization name
+                </small>
+            </div>
+            <button id="submit" type="button" onclick="submitForm()">
+                SUBMIT
+            </button>
+            <div class="success">
+                Thank you for your interest!
+            </div>
+            <div class="error">
+                Oops, that didn't work!
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

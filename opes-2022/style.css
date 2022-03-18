@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+body {
+  background: url("head-10xds.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.contact-us {
+    background: rgba(255,255,255,0.97);
+    padding: 50px 70px;
+}
+
+.contact-us .title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.form-control {
+    margin-bottom: 25px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(129 129 129);
+    background: transparent;
+    min-width: 250px;
+    outline: none;
+    color: rgba(0,0,0,1);
+}
+
+.form-control small {
+    display: none;
+    color: #c32222;
+    font-size: 12px;
+}
+  
+input:focus {
+  border-bottom-width: 2px;
+}
+  
+button {
+    display: block;
+    margin: 0 auto;
+    line-height: 28px;
+    padding: 5px 25px;
+    background: #6e3c95;
+    letter-spacing: 2px;
+    transition: .2s all ease-in-out;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.1);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(0,0,0,1);
+    color: white;
+    border: 1px solid rgba(0,0,0,1);
+}
+
+button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+  
+.success, .error {
+    display: none;
+    text-align: center;
+    margin-top: 30px;
+}
