@@ -257,7 +257,7 @@
  header .intro-text {
      padding-top: 150px;
      padding-bottom: 200px;
-     width: 70%;
+     width: 72%;
      margin: 0 auto;
  }
  /* About Section */
@@ -327,6 +327,7 @@
      -o-transition: all 0.5s ease-out;
      transition: all 0.5s ease-out;
      background: white;
+     border: 2px solid transparent;
  }
  
  .service-item:hover {
@@ -335,7 +336,7 @@
      -ms-transform: scale(1.05);
      -o-transform: scale(1.05);
      transform: scale(1.05);
-     border: 2px solid #502379;
+     border-color: #502379;
  }
  
  .service-item .hover-bg {
