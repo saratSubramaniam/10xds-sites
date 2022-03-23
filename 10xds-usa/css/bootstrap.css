@@ -5109,6 +5109,9 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     .intro-text {
         width: 90% !important;
     }
+    .service-item .hover-bg .img-responsive {
+        height: auto !important;
+    }
 }
 
 @media (min-width: 768px) {
