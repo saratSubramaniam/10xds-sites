@@ -5114,6 +5114,19 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
     .nav>li {
         margin-right: 0 !important;
+    }
+    #partnership .partnership-item:nth-child(1) .about-text img {
+        float: right !important;
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+    #partnership .partnership-item:nth-child(2) .about-text img {
+        float: none !important;
+        margin-bottom: 10px;
+        margin-left: 0 !important;
+    }
+    #services {
+        padding: 0px 0px 30px 0px;
     }    
 }
 
