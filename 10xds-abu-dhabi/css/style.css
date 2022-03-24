@@ -162,10 +162,11 @@
  }
  
  .learn-more-button {
-     position: absolute;
-     width: 100%;
-     text-align: center;
-     bottom: 170px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 170px;
+    z-index: 20;
  }
  
  .btn-custom {
@@ -213,21 +214,9 @@
  /* Header Section */
  
  .intro {
-     display: table;
-     width: 100%;
-     padding: 0;
+     position: relative;
      text-align: center;
-     background: url(../img/head-10xds.png) no-repeat center bottom;
-     filter: grayscale(100%);
-     background-color: #e5e5e5;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     background-size: cover;
-     -o-background-size: cover;
- }
- 
- .intro:hover {
-     filter: grayscale(0%);
+     z-index: 20;
  }
  
  .section-title.center {
@@ -249,9 +238,18 @@
      margin-bottom: 40px;
      margin-top: 20px;
  }
+
+ .header-container {
+     position: relative;
+ }
  
  header {
      position: relative;
+     filter: grayscale(100%);
+ }
+
+ header:hover {
+     filter: grayscale(0%);
  }
  
  header .intro-text {
@@ -259,6 +257,17 @@
      padding-bottom: 200px;
      width: 72%;
      margin: 0 auto;
+ }
+
+ header .banner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
  }
  /* About Section */
  
